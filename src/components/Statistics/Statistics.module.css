@@ -1,0 +1,22 @@
+.stat {
+  position: relative;
+}
+.stat_list {
+  position: absolute;
+  margin-left: auto;
+}
+
+.item {
+  display: flex;
+}
+
+.label {
+  /* display: flex; */
+  /* justify-content: start; */
+  padding-left: 50px;
+
+  font-weight: 400;
+  font-size: 20px;
+
+  color: black;
+}
