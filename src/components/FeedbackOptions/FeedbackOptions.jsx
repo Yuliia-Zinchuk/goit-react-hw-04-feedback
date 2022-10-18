@@ -2,7 +2,11 @@ import PropTypes from 'prop-types';
 import { nanoid } from 'nanoid';
 import css from './FeedbackOptions.module.css';
 
-export const FeedbackOptions = ({ options, onLeaveFeedback }) => {
+export const FeedbackOptions = ({
+  options,
+
+  onLeaveFeedback,
+}) => {
   return (
     <>
       <div className={css.btn_list}>
